@@ -83,23 +83,22 @@
   margin-bottom: 8px;
 }
 .footer-link-items a:hover {
-  color: #1ad314;
+  color: grey;
   transition: 0.3s ease-out;
 }
-
 
 /* Social Icons */
 
 .social-media {
   max-width: 1000px;
-  width: 100%;
+  width: 90%;
 }
 
 .social-media-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  margin-left: 20px;
   max-width: 1000px;
   margin: 40px auto 0 auto;
 }
@@ -119,7 +118,7 @@
 .social-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
+
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;

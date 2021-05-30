@@ -1,0 +1,13 @@
+.content-container {
+  height: 90vh;
+}
+
+.content-header-wrapper {
+  padding: 4rem 4rem 0 4rem;
+}
+
+.content-body-wrapper {
+  margin: 40px;
+  padding: 3rem;
+  font-size: 30px;
+}

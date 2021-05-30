@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 function CardItem(props) {
     return (
-        // figure out what these empty tags are for...
+        
         <>
             <li className="cards__item" >
                 <Link className="cards__item__link" to={props.path}>
