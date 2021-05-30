@@ -18,7 +18,7 @@ function CardsWork() {
             />
 
             <CardItem
-              src="images/lincoln.jpg"
+              src="images/chairlift.jpg"
               altText="NZSki Limited"
               text="Lift Operations Head of Department"
               label="The Remarkables, NZSki Limited, Queenstown"
