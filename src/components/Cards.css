@@ -123,3 +123,18 @@ h1 {
     margin-bottom: 2rem;
   }
 }
+
+
+@media screen and (max-width: 960px) {
+  .cards {
+    padding: 3rem 3rem 0 3rem;
+   
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    padding: 1rem 1rem 0 1rem;
+   
+  }
+}
