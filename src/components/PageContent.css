@@ -1,13 +1,30 @@
 .content-container {
-  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
 }
 
 .content-header-wrapper {
+  font-size: 48px;
   padding: 4rem 4rem 0 4rem;
 }
 
 .content-body-wrapper {
-  margin: 40px;
+  display: flex;
   padding: 3rem;
   font-size: 30px;
+}
+
+@media screen and (max-width: 960px) {
+    .content-body-wrapper {
+      padding: 2rem;
+      font-size: 25px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+  .content-body-wrapper {
+    padding: 1rem;
+    font-size: 20px;
+  }
 }
